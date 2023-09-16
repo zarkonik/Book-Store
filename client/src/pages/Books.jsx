@@ -35,7 +35,7 @@ const Books = () => {
       "http://localhost:8800/authentification/register"
     );
     setAdminRole(user);
-    console.log(adminRole);
+    console.log(adminRole);//admin role
   };
 
   const logout = async () => {
